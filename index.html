@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Politica de Confidentialitate - Jurnal de sarcina</title>
+  <title>Politica de confidențialitate - Jurnal de sarcină</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #FDFAF7; color: #3D2645; line-height: 1.7; padding: 0 16px; max-width: 800px; margin: 0 auto; }
     header { background: linear-gradient(135deg, #E8A598, #C97060); color: white; text-align: center; padding: 48px 24px; margin: 0 -16px 40px; }
@@ -12,33 +12,85 @@
     p, li { font-size: 15px; color: #4A4A4A; margin-bottom: 10px; }
     ul { padding-left: 20px; }
     a { color: #C97060; }
+    .note { background: #F5E6E2; border-radius: 12px; padding: 12px 16px; }
     .footer { text-align: center; color: #9A9A9A; font-size: 13px; margin-top: 48px; }
   </style>
 </head>
 <body>
-<header><h1>Jurnal de sarcina</h1><p>Politica de Confidentialitate</p></header>
-<h2>1. Ce date colectam</h2>
-<p><strong>Date de cont:</strong> adresa de email pentru autentificare prin Firebase.</p>
-<p><strong>Date de sarcina:</strong> data ultimei menstruatii (DUM), prenumele tau si al bebelusului, judetul, grupa sanguina Rh.</p>
-<p><strong>Date de sanatate:</strong> greutate, tensiune arteriala, simptome zilnice, miscari fetale, contractii.</p>
-<p><strong>Jurnal:</strong> notite text, fotografii (stocate local pe dispozitiv), starea de spirit.</p>
-<h2>2. Cum folosim datele</h2>
-<p>Datele sunt folosite exclusiv pentru functiile aplicatiei: calcularea saptamanii de sarcina, calendarul de investigatii, notificari locale, sugestii clinici, export PDF. Nu vindem si nu partajam datele cu terti in scop publicitar.</p>
-<h2>3. Unde sunt stocate datele</h2>
-<p><strong>Local pe dispozitiv</strong> (AsyncStorage) pentru functionare offline. <strong>Firebase Firestore</strong> (Google Cloud) pentru sincronizare cloud. Firebase respecta GDPR si este certificat ISO 27001.</p>
-<h2>4. Fotografii</h2>
-<p>Fotografiile adaugate in jurnal sunt stocate exclusiv local pe dispozitiv. Nu sunt incarcate pe niciun server.</p>
-<h2>5. Drepturile tale (GDPR)</h2>
+<header><h1>Jurnal de sarcină</h1><p>Politica de confidențialitate</p></header>
+
+<p>Aplicația „Jurnal de sarcină” (iOS și Android) este oferită de <strong>Medstoria Consulting S.R.L.</strong>, operatorul datelor tale. Aici explicăm ce date folosim, de ce, unde stau și ce drepturi ai.</p>
+
+<h2>1. Ce date folosim</h2>
 <ul>
-  <li>Acces: toate datele sunt vizibile in aplicatie</li>
-  <li>Corectare: le poti edita din sectiunea Profil</li>
-  <li>Stergere: stergerea contului elimina toate datele din cloud</li>
-  <li>Portabilitate: export prin functia Export PDF</li>
+  <li><strong>Cont:</strong> adresa de email (sau contul Apple / Google cu care te autentifici) și prenumele.</li>
+  <li><strong>Date despre sarcină:</strong> data ultimei menstruații (DUM), prenumele bebelușului, județul (pentru clinici), factorul Rh.</li>
+  <li><strong>Date de sănătate pe care le notezi tu:</strong> greutate, tensiune arterială, simptome, mișcările bebelușului, contracții, planul investigațiilor (status, date, notițe).</li>
+  <li><strong>Jurnal:</strong> notițe, starea de spirit, fotografii.</li>
+  <li><strong>Burtica mea:</strong> câte o fotografie pe săptămână, cu o descriere opțională.</li>
+  <li><strong>Dosar medical:</strong> fotografii sau fișiere PDF ale documentelor medicale (ecografii, analize, scrisori), cu titlul, tipul, data și notițele tale. Aplicația nu citește și nu interpretează aceste documente.</li>
+  <li><strong>9 Luni AI (opțional, doar cu acordul tău):</strong> întrebările tale și, dacă alegi „cu contextul meu”, un rezumat limitat (vezi secțiunea 5).</li>
+  <li><strong>Modul partener (opțional):</strong> ce alegi să vadă partenerul și emailul contului lui, ca să știi cine are acces.</li>
+  <li><strong>Plăți:</strong> identificatorul contului și istoricul achizițiilor (abonament / acces pe sarcină). Nu vedem și nu păstrăm datele cardului.</li>
 </ul>
-<h2>6. Servicii terte</h2>
-<p>Firebase Authentication si Firestore (Google). Nu folosim reclame sau trackere de terta parte.</p>
-<h2>7. Contact</h2>
-<p>Email: <a href="mailto:lucian.bob92@gmail.com">lucian.bob92@gmail.com</a></p>
-<p class="footer">Ultima actualizare: 20 mai 2026</p>
+<p>Nu folosim reclame și nu folosim trackere de terță parte. În prezent nu trimitem date de analiză; dacă vom face asta, vor fi doar evenimente anonime de utilizare, fără conținutul jurnalului, simptome, tensiune sau documente, iar această pagină va fi actualizată înainte.</p>
+
+<h2>2. De ce le folosim</h2>
+<p>Exclusiv pentru funcțiile aplicației: calcularea săptămânii de sarcină, calendarul investigațiilor și notificările locale, sugestiile de clinici din județul tău, jurnalul și pozele tale, rezumatele și rapoartele PDF pe care le generezi, sincronizarea între telefoanele tale, backup-ul în cloud, asistentul AI (dacă îl folosești), modul partener (dacă îl pornești) și plățile. Nu vindem datele și nu le folosim în scop publicitar. Aplicația oferă informații generale și nu înlocuiește medicul.</p>
+<p><strong>Temeiul legal (GDPR):</strong> contractul cu tine (art. 6 alin. 1 lit. b) pentru cont, sincronizare, backup și plăți; consimțământul tău (art. 6 alin. 1 lit. a și art. 9 alin. 2 lit. a) pentru datele de sănătate pe care alegi să le notezi, pentru 9 Luni AI și pentru modul partener. Poți retrage consimțământul oricând: oprești asistentul sau partajarea din aplicație, ștergi datele respective ori contul. Retragerea nu afectează prelucrarea făcută înainte. Evidența plăților o păstrăm pentru obligațiile legale (art. 6 alin. 1 lit. c).</p>
+
+<h2>3. Unde sunt stocate</h2>
+<ul>
+  <li><strong>Pe telefonul tău</strong>, separat pentru fiecare cont, ca aplicația să meargă și fără internet.</li>
+  <li><strong>Google Firebase — Firestore și Storage</strong>, în centre de date din <strong>Uniunea Europeană</strong>: datele din aplicație, fotografiile din jurnal și din „Burtica mea” și documentele din dosarul medical, pentru sincronizare și backup. Fotografiile și documentele sunt accesibile doar contului tău; nu există linkuri publice către ele.</li>
+  <li><strong>Google Firebase Authentication</strong> (serviciu global Google): emailul și identificatorul contului, pentru autentificare.</li>
+  <li><strong>Serverul nostru</strong> (în UE, Franța): emailul, prenumele și județul, pentru emailul de confirmare a contului; contoare tehnice pentru limitele asistentului AI (identificatorul contului, ziua, numărul de întrebări), fără conținutul întrebărilor.</li>
+</ul>
+
+<h2>4. Fotografii și documente</h2>
+<p>Fotografiile și documentele se păstrează întâi pe telefon, apoi se urcă automat în Firebase Storage (UE), în spațiul contului tău, ca să nu le pierzi dacă schimbi telefonul. Le vezi doar tu. Excepție: fotografiile pe care le alegi explicit, una câte una, pentru partener (secțiunea 6). Documentele medicale nu pot fi partajate niciodată.</p>
+
+<h2>5. 9 Luni AI</h2>
+<p>Asistentul este opțional și funcționează doar după ce îți dai acordul, din aplicație. El dă informații generale, nu sfaturi medicale, și nu pune diagnostice.</p>
+<ul>
+  <li><strong>Ce pleacă:</strong> întrebarea ta, prin serverul nostru, către <strong>Anthropic</strong> (compania care dezvoltă modelul Claude), ca să primești un răspuns. Cu opțiunea „cu contextul meu” trimitem în plus: săptămâna de sarcină, denumirile simptomelor notate în ultimele 7 zile, diferența de greutate din ultimele 4 săptămâni și următoarele investigații; fragmente din jurnal doar dacă pornești separat „Include jurnalul”.</li>
+  <li><strong>Ce nu trimitem niciodată de la noi:</strong> numele, emailul, documentele medicale, valorile tensiunii sau ale greutății. Ce scrii tu în întrebare pleacă așa cum l-ai scris, așa că nu include acolo date pe care nu vrei să le trimiți.</li>
+  <li><strong>La Anthropic:</strong> datele trimise prin API nu sunt folosite pentru antrenarea modelelor și sunt șterse în cel mult 30 de zile; doar dacă sunt semnalate pentru încălcarea politicilor de utilizare pot fi păstrate până la 2 ani.</li>
+  <li><strong>La noi:</strong> serverul nostru nu păstrează întrebările sau răspunsurile. Conversația rămâne doar pe telefonul tău și o poți șterge oricând.</li>
+  <li>Poți alege „doar informații generale” sau poți retrage acordul oricând, din Profil → 9 Luni AI.</li>
+</ul>
+
+<h2>6. Modul partener</h2>
+<p>Poți invita un partener cu un cod. Partenerul își face propriul cont și vede, doar pentru citire, prenumele tău și exact ce alegi tu: săptămâna, data estimată a nașterii și dezvoltarea bebelușului (pornite implicit), iar dacă le activezi, geanta de spital, calendarul investigațiilor (statusul și datele, fără notițe), fotografiile din „Burtica mea” și momentele din jurnal, alese una câte una. <strong>Simptomele, tensiunea, greutatea, notițele medicale, documentele și factorul Rh nu pot fi partajate.</strong> Poți opri accesul partenerului oricând, cu efect imediat.</p>
+
+<h2>7. Plăți</h2>
+<p>Plățile se fac prin Apple App Store sau Google Play. Pentru gestionarea accesului folosim <strong>RevenueCat</strong>, care primește identificatorul contului tău și istoricul achizițiilor, nu și datele cardului.</p>
+
+<h2>8. Cât timp păstrăm datele</h2>
+<p>Cât timp ai contul. La ștergerea contului, din aplicație (Profil → Șterge contul), ștergem datele din Firestore, fotografiile și documentele din Storage, datele de pe serverul nostru, legăturile cu partenerul și înregistrarea de la RevenueCat, apoi contul însuși. Evidența plăților poate rămâne la Apple, Google și procesatorul de plăți, conform obligațiilor legale.</p>
+
+<h2>9. Drepturile tale (GDPR)</h2>
+<ul>
+  <li><strong>Acces și portabilitate:</strong> datele sunt vizibile în aplicație; le poți exporta ca PDF.</li>
+  <li><strong>Corectare:</strong> din aplicație, în secțiunile respective și în Profil.</li>
+  <li><strong>Ștergere:</strong> ștergerea contului elimină toate datele de pe serverele noastre.</li>
+  <li><strong>Retragerea acordului</strong> pentru asistentul AI și oprirea partajării cu partenerul, oricând, din aplicație.</li>
+  <li>Dreptul de a depune o plângere la <a href="https://www.dataprotection.ro">Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP)</a>.</li>
+</ul>
+
+<h2>10. Servicii terțe (împuterniciți)</h2>
+<ul>
+  <li><strong>Google Firebase</strong> — autentificare, bază de date și stocarea fișierelor (bază de date și fișiere în UE).</li>
+  <li><strong>Anthropic</strong> (SUA) — asistentul AI, doar cu acordul tău.</li>
+  <li><strong>RevenueCat</strong> (SUA) — gestionarea achizițiilor.</li>
+  <li><strong>Apple și Google</strong> — magazinele de aplicații, autentificarea cu Apple / Google și plățile.</li>
+  <li><strong>Brevo</strong> (UE) — trimiterea emailului de confirmare a contului și a notificărilor interne despre achiziții.</li>
+  <li><strong>Contabo</strong> (UE, Franța) — găzduirea serverului nostru.</li>
+</ul>
+<p>Când datele ajung la furnizori din afara UE (Anthropic, RevenueCat, Google), transferul se face cu garanțiile cerute de GDPR: clauzele contractuale standard aprobate de Comisia Europeană sau Cadrul UE–SUA privind protecția datelor.</p>
+
+<h2>11. Contact</h2>
+<p>Pentru orice întrebare despre datele tale: <a href="mailto:lucian.bob92@gmail.com">lucian.bob92@gmail.com</a></p>
+<p class="footer">Ultima actualizare: 12 septembrie 2026 (versiunea 1.3.0 a aplicației)</p>
 </body>
 </html>
